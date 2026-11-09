@@ -1,0 +1,30 @@
+# warm-falcon-273
+
+Building a parser. Small tools, big diffs.
+
+拿来练手的小仓库
+
+## 用法
+
+```bash
+cat data.txt | go run main.go
+```
+
+输出：
+
+```
+   3  error: timeout
+   1  warn: retry
+---
+2 unique / 4 lines
+```
+
+## 待办
+
+- [ ] 支持从文件参数读入
+- [ ] 拆成更小的函数
+- [ ] 补点测试
+
+## License
+
+MIT
